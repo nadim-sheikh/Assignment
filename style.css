@@ -93,16 +93,11 @@
     margin-bottom: 50px;
 }
 
-.text-box p {
-    font-size: 25px;
-    color: #B3B3B3;
-}
 
 .text-box input {
     text-align: center;
-    color: #FF5959;
-    font: bold;
-    font-size: 50px;
+    color: #B3B3B3;
+    font-size: 25px;
     width: 55%;
     height: 70px;
     border: none;
