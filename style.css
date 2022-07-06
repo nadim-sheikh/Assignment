@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@600&family=Poppins&family=Roboto+Condensed&family=Roboto:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@600&family=Lobster&family=Poppins&family=Roboto+Condensed&family=Roboto:wght@400;500&display=swap');
 
 * {
     margin: 0%;
@@ -11,7 +12,7 @@
 }
 
 .banner {
-    background-image: linear-gradient(rgba(0,0,0,0.4) ,rgba(0,0,0,0.9)), url(/img/donation4.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.9)), url(img/donation4.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -88,16 +89,19 @@
     border: 3px solid #FF5959;
     border-radius: 5px;
 }
+
 /*input-text*/
-.text-box{
+.text-box {
     text-align: center;
     margin-bottom: 50px;
 }
-.text-box p{
+
+.text-box p {
     font-size: 30px;
     color: #B3B3B3;
 }
-.text-box input{
+
+.text-box input {
     text-align: center;
     color: #FF5959;
     font: bold;
@@ -107,7 +111,8 @@
     border: none;
     border-bottom: 2px solid #B3B3B3;
 }
-#button{
+
+#button {
     text-decoration: none;
     color: white;
     background-color: #FF5959;
@@ -116,39 +121,47 @@
     padding: 20px 30px;
     font-size: 30px;
 }
-.btn-center{
+
+.btn-center {
     text-align: center;
     margin-bottom: 150px;
 }
+
 /*Our Donate Plan*/
-.text-box-2{
+.text-box-2 {
     text-align: center;
     margin-bottom: 150px;
 }
-.text-box-2 h1{
+
+.text-box-2 h1 {
     font-size: 70px;
     font: bold;
 }
-.text-box-2 p{
+
+.text-box-2 p {
     font-size: 25px;
     color: #707070;
 }
+
 /*card design*/
-.contenar{
+.contenar {
     display: flex;
     justify-content: center;
     margin-bottom: 150px;
     padding-left: 10%;
     padding-right: 10%;
 }
-.contenar h3{
+
+.contenar h3 {
     font-size: 40px;
     font: bold;
 }
-.contenar p{
+
+.contenar p {
     font-size: 25px;
 }
-.card-1{
+
+.card-1 {
     width: 30%;
     height: 360px;
     background-color: #4f9da625;
@@ -156,7 +169,8 @@
     padding: 100px 30px 30px 30px;
     margin-right: 5%;
 }
-.card-2{
+
+.card-2 {
     width: 30%;
     height: 360px;
     background-color: #ff595925;
@@ -164,7 +178,8 @@
     padding: 100px 30px 30px 30px;
     margin-right: 5%;
 }
-.card-3{
+
+.card-3 {
     width: 30%;
     height: 360px;
     background-color: #FFF4D6;
@@ -172,28 +187,34 @@
     padding: 100px 30px 30px 30px;
     margin-right: 5%;
 }
-.card-img{
+
+.card-img {
     padding-bottom: 10px;
     width: 20%;
 }
+
 /*card End*/
-.text-box-3{
+.text-box-3 {
     text-align: center;
 }
-.text-box-3 h1{
+
+.text-box-3 h1 {
     font-size: 70px;
     color: #121212;
 }
-.text-box-3 p{
+
+.text-box-3 p {
     font-size: 30px;
     color: #707070;
 }
+
 /*email box*/
-.email-box{
+.email-box {
     display: flex;
     justify-content: center;
 }
-.email-box input{
+
+.email-box input {
     width: 30%;
     font-size: 30px;
     border: hidden;
@@ -202,7 +223,8 @@
     color: #AA9F9F;
     background-color: #D9D9D9;
 }
-.email-box h3{
+
+.email-box h3 {
     font-size: 20px;
     padding: 20px 40px;
     background-color: #FF5959;
@@ -210,14 +232,26 @@
     border-bottom-right-radius: 5px;
     color: #FFFFFF;
 }
-.box-bg{
+
+.box-bg {
     background-color: #FFF4D6;
-    margin:0px 400px;
+    margin: 0px 400px;
     padding: 100px 0px 100px 0px;
     border-radius: 10px;
 }
-.main-bg{
+
+.main-bg {
     margin-bottom: 150px;
     margin-top: 100px;
 }
+
 /*footer*/
+footer {
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Lobster', cursive;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: #FF5959;
+}
