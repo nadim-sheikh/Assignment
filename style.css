@@ -1,0 +1,223 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@600&family=Poppins&family=Roboto+Condensed&family=Roboto:wght@400;500&display=swap');
+
+* {
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.banner {
+    background-image: linear-gradient(rgba(0,0,0,0.4) ,rgba(0,0,0,0.9)), url(/img/donation4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.banner-text {
+    width: 100%;
+    position: absolute;
+    top: 25%;
+    text-align: center;
+    color: white;
+
+}
+
+.banner-text h1 {
+    font-size: 90px;
+    font-weight: 600;
+}
+
+.banner-text p {
+    font-size: 20px;
+    margin-top: 30px;
+}
+
+.button {
+    text-decoration: none;
+    color: white;
+    background-color: #FF5959;
+    font-weight: 600;
+    border-radius: 10px;
+    padding: 20px 30px;
+    font-size: 30px;
+}
+
+/*fast End*/
+.donate-today {
+    text-align: center;
+    margin-top: 150px;
+}
+
+.donate-today h1 {
+    font-size: 70px;
+    font-weight: 800;
+}
+
+.donate-today p {
+    color: #707070;
+    font-size: 25px;
+    margin-top: 30px;
+    font-weight: 200;
+}
+
+/*amount box*/
+.amount-box {
+    color: #707070;
+    display: flex;
+    justify-content: space-between;
+    padding: 3% 30% 3% 20%;
+    margin-bottom: 50px;
+}
+
+.amount-box h1 {
+    font-size: 40px;
+    background-color: #FAFAFA;
+    padding: 50px 40px 50px 40px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+#color {
+    color: #FF5959;
+    background-color: #FFEEEE;
+    border: 3px solid #FF5959;
+    border-radius: 5px;
+}
+/*input-text*/
+.text-box{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.text-box p{
+    font-size: 30px;
+    color: #B3B3B3;
+}
+.text-box input{
+    text-align: center;
+    color: #FF5959;
+    font: bold;
+    font-size: 50px;
+    width: 55%;
+    height: 70px;
+    border: none;
+    border-bottom: 2px solid #B3B3B3;
+}
+#button{
+    text-decoration: none;
+    color: white;
+    background-color: #FF5959;
+    font-weight: 600;
+    border-radius: 10px;
+    padding: 20px 30px;
+    font-size: 30px;
+}
+.btn-center{
+    text-align: center;
+    margin-bottom: 150px;
+}
+/*Our Donate Plan*/
+.text-box-2{
+    text-align: center;
+    margin-bottom: 150px;
+}
+.text-box-2 h1{
+    font-size: 70px;
+    font: bold;
+}
+.text-box-2 p{
+    font-size: 25px;
+    color: #707070;
+}
+/*card design*/
+.contenar{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 150px;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.contenar h3{
+    font-size: 40px;
+    font: bold;
+}
+.contenar p{
+    font-size: 25px;
+}
+.card-1{
+    width: 30%;
+    height: 360px;
+    background-color: #4f9da625;
+    border-radius: 20px;
+    padding: 100px 30px 30px 30px;
+    margin-right: 5%;
+}
+.card-2{
+    width: 30%;
+    height: 360px;
+    background-color: #ff595925;
+    border-radius: 20px;
+    padding: 100px 30px 30px 30px;
+    margin-right: 5%;
+}
+.card-3{
+    width: 30%;
+    height: 360px;
+    background-color: #FFF4D6;
+    border-radius: 20px;
+    padding: 100px 30px 30px 30px;
+    margin-right: 5%;
+}
+.card-img{
+    padding-bottom: 10px;
+    width: 20%;
+}
+/*card End*/
+.text-box-3{
+    text-align: center;
+}
+.text-box-3 h1{
+    font-size: 70px;
+    color: #121212;
+}
+.text-box-3 p{
+    font-size: 30px;
+    color: #707070;
+}
+/*email box*/
+.email-box{
+    display: flex;
+    justify-content: center;
+}
+.email-box input{
+    width: 30%;
+    font-size: 30px;
+    border: hidden;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    color: #AA9F9F;
+    background-color: #D9D9D9;
+}
+.email-box h3{
+    font-size: 20px;
+    padding: 20px 40px;
+    background-color: #FF5959;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    color: #FFFFFF;
+}
+.box-bg{
+    background-color: #FFF4D6;
+    margin:0px 400px;
+    padding: 100px 0px 100px 0px;
+    border-radius: 10px;
+}
+.main-bg{
+    margin-bottom: 150px;
+    margin-top: 100px;
+}
+/*footer*/
