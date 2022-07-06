@@ -161,7 +161,7 @@
     display: flex;
     justify-content: center;
     margin-bottom: 150px;
-    padding-left: 10%;
+    padding-left: 13.9%;
     padding-right: 10%;
 }
 
@@ -222,6 +222,34 @@
     color: #707070;
 }
 
+/*my design*/
+.main-box {
+    text-align: center;
+}
+
+.donated-box {
+    color: #707070;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 150px;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+.donate-text h1{
+    font-size: 70px;
+}
+.donate-text {
+    align-items: center;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 30px;
+    border-bottom: 3px solid #AA9F9F;
+}
+
+.donated-box h1 {
+    font-size: 70px;
+}
+
 /*email box*/
 .email-box {
     display: flex;
@@ -247,9 +275,10 @@
     background-color: #FF5959;
     border-top-right-radius: 5px;
     border-bottom-right-radius: 5px;
-    
+
 }
-.email-box h3 a{
+
+.email-box h3 a {
     text-decoration: none;
     color: #FFFFFF;
 }
@@ -267,18 +296,20 @@
 }
 
 /*footer*/
-footer{
+footer {
     text-align: center;
     background-color: #0B0D17;
     padding: 50px 0px;
 }
+
 footer h1 {
     font-family: 'Lobster', cursive;
     color: #FF5959;
     font-size: 50px;
     margin-top: 20px;
 }
-footer p{
+
+footer p {
     color: white;
     font-size: 20px;
     margin-top: 30px;
