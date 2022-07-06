@@ -229,12 +229,14 @@
 
 .email-box input {
     width: 30%;
-    font-size: 30px;
+    font-size: 25px;
     border: hidden;
     border-top-left-radius: 5px;
     border-bottom-left-radius: 5px;
     color: #AA9F9F;
     background-color: #D9D9D9;
+    padding: 8px 8px 8px 30px;
+    box-sizing: border-box;
 }
 
 .email-box h3 {
